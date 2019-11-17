@@ -73,17 +73,12 @@ a:hover,a:active,a:focus{
 //  02 - Header 
 /////////////////////////////////////////////////////////////////////*/
 
-header{
-	background: url(../images/bkground1.jpg) no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: 50% -50px;
+#header img{
+	heigt:100%;
+	width:100%;
+	position:center;
+	
 }
-.center {
-    text-align: center;
-    color: #ffffff;
-}
-
 
 .scrollDown {
     font-size: 4em;
@@ -96,6 +91,18 @@ header{
 	color: rgba(255, 255, 255, 0.4);
 	transition: 0.4s ease all;
 }
+
+/* ///////////////////////////////////////////////////////////////////// 
+//  03 - Intro 
+/////////////////////////////////////////////////////////////////////*/
+
+.intro-area img{
+	width:100%;
+	height:100%;
+	position:center;
+}
+	
+	
 
 /* ///////////////////////////////////////////////////////////////////// 
 //  04 - Islas 
@@ -159,26 +166,26 @@ header{
 }
 
 #boga {
-        background:url('../images/Isla Boga.jpg') no-repeat;
+        background:url('Imagenes/Isla Boga.jpg') no-repeat;
         background-position:center;
 }
 
 #bauhaus {
-        background:url('../images/Isla Bauhaus.jpg') no-repeat;
+        background:url('Imagenes/Isla Bauhaus.jpg') no-repeat;
         background-position:center;
 }
 
 #jaula {
-        background:url('../images/Isla Jaula.jpg') no-repeat;
+        background:url('Imagenes/Isla Jaula.jpg') no-repeat;
         background-position:center;
 }
 
 #pieza {
-        background:url('../images/Isla Pieza.jpg')no-repeat;
+        background:url('Imagenes/Isla Pieza.jpg')no-repeat;
         background-position:center;
 }
 #fad {
-        background:url('../images/Isla Fad.jpg')no-repeat;
+        background:url('Imagenes/Isla Fad.jpg')no-repeat;
         background-position:center;
 }
 
