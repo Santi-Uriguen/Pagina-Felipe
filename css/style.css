@@ -80,7 +80,6 @@ a:hover,a:active,a:focus{
 #header img{
 	heigt:100%;
 	width:100%;
-	position:center;
 	margin-left:20px;
 	margin-right:20px;
 	margin_bottom:0px;
@@ -120,7 +119,7 @@ a:hover,a:active,a:focus{
 //  04 - Islas 
 /////////////////////////////////////////////////////////////////////*/
 
-.islas {
+/* .islas {
     max-width: 293px;
     height: 263px;
 }
@@ -156,6 +155,7 @@ a:hover,a:active,a:focus{
 .pe-dj {
     font-size: 5em;
 }
+*/
 
 .row {
     display:flex;
