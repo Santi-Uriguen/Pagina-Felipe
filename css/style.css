@@ -166,26 +166,26 @@ a:hover,a:active,a:focus{
 }
 
 #boga {
-        background:url('../images/Isla Boga.jpg') no-repeat;
+        background:url('Imagenes/Isla Boga.jpg') no-repeat;
         background-position:center;
 }
 
 #bauhaus {
-        background:url('../images/Isla Bauhaus.jpg') no-repeat;
+        background:url('Imagenes/Isla Bauhaus.jpg') no-repeat;
         background-position:center;
 }
 
 #jaula {
-        background:url('../images/Isla Jaula.jpg') no-repeat;
+        background:url('Imagenes/Isla Jaula.jpg') no-repeat;
         background-position:center;
 }
 
 #pieza {
-        background:url('../images/Isla Pieza.jpg')no-repeat;
+        background:url('Imagenes/Isla Pieza.jpg')no-repeat;
         background-position:center;
 }
 #fad {
-        background:url('../images/Isla Fad.jpg')no-repeat;
+        background:url('Imagenes/Isla Fad.jpg')no-repeat;
         background-position:center;
 }
 
