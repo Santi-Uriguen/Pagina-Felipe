@@ -77,6 +77,10 @@ a:hover,a:active,a:focus{
 	heigt:100%;
 	width:100%;
 	position:center;
+	margin-left:20px;
+	margin-right:20px;
+	margin_bottom:0px;
+	padding-bottom:0px;
 	
 }
 
@@ -100,6 +104,10 @@ a:hover,a:active,a:focus{
 	width:100%;
 	height:100%;
 	position:center;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:0px;
+	padding-top:0px
 }
 	
 	
