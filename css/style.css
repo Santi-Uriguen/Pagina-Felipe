@@ -68,6 +68,10 @@ a:hover,a:active,a:focus{
     margin-right: -42%;
 }
 
+.bloque{
+	display:inline-block
+}
+
 
 /* ///////////////////////////////////////////////////////////////////// 
 //  02 - Header 
