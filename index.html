@@ -126,31 +126,33 @@
         </footer>
             
         <!--sripts-->
-        <script> var acc = document.getElementsByClassName("accordion");
-        var i;
-
-        for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function () {
-                this.classList.toggle("active");
-                var panel = this.nextElementSibling;
-                if (panel.style.maxHeight) {
-                    panel.style.maxHeight = null;
-                } else {
-                    panel.style.maxHeight = panel.scrollHeight + "px";
-                    
-                }
-                var panel = this.nextElementSibling;
-                if (panel.style.maxWidth) {
-                    panel.style.maxWidth = null;
-                } else {
-                    panel.style.maxWidth = panel.scrollWidth + "px";
-                    
-                }
-                
-            });
-        }
+        <script>
+            function mostrar(id)
+            {
+                var objeto=document.getElementById(id)
+                if(objeto.style.display=="block")
+                    objeto.style.display="none";
+                else
+                    objeto.style.display="block";
+            }
         </script>
-            
+        <style>
+            .oculto {display:none;}
+        </style>
+   
+        <form>
+            <input type="button" onclick="mostrar('contenido1')" value="Mostrar/ocultar contenido 1">
+            <input type="button" onclick="mostrar('contenido2')" value="Mostrar/ocultar contenido 2">
+            <div id="contenido1">
+                <img src="Imagenes/Pagina 3 (Color 1)-01.jpg" class="oculto" >
+                <img src="Imagenes/Pagina 3 (Color 2)-01.jpg" class="oculto" >
+            </div>
+            <div id="contenido2">
+                <img src="Imagenes/Pagina 3 (Estructura 1)-01.jpg" class="oculto" >
+                <img src="Imagenes/Pagina 3 (Estructura 2)-01.jpg" class="oculto" >
+            </div>
+        </form>
+    
             
    
     
