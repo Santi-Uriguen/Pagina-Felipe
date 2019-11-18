@@ -20,15 +20,18 @@
         <link rel="icon" href="Images/favicon.png" type="image/png"  sizes="any">
 
         <script>
-            function mostrar(id)
-            {
-                var objeto=document.getElementById(id)
-                if(objeto.style.display=="block")
-                    objeto.style.display="none";
-                else
-                    objeto.style.display="block";
-            }
-        </script>
+        // guardamos el id de la imagen visible
+        idImagenVisible="contenido1";
+        function mostrar(id)
+        {
+            // esconedemos la imagen visible
+            document.getElementById(idImagenVisible).style.display="none";
+            // mostramos la imagen seleccionada
+            document.getElementById(id).style.display="block";
+            // guardamos en la variable la imagen que estamos visualizando
+            idImagenVisible=id;
+        }
+    </script>
         <style>
             .oculto {display:none;}
         </style>
