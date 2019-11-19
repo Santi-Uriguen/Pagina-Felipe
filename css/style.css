@@ -113,7 +113,7 @@ a:hover,a:active,a:focus{
 	
 
 #boga {
-        background-image:url('Imagenes/Isla Boga.jpg') no-repeat;
+        background-image:url('Imagenes/Isla Boga.jpg');
         background-position:center;
 }
 
