@@ -98,9 +98,11 @@ a:hover,a:active,a:focus{
 }
 
 .boton {
-	width:100%;
+	width:15.5%;
 	margin:auto;
-	height:
+	height:200px;
+	border-radius:50%;
+	
 	
 }
 
