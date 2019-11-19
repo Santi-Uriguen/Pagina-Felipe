@@ -91,10 +91,14 @@ a:hover,a:active,a:focus{
 /////////////////////////////////////////////////////////////////////*/
 
 .islas form{
-	width:50%;
+	width:100%;
 	display:flex;
 	justify-content:center;
 }
+
+.boton {
+	width:25%;
+	margin:auto;
 	
 
 #boga {
