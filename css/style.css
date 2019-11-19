@@ -90,7 +90,11 @@ a:hover,a:active,a:focus{
 //  04 - Islas 
 /////////////////////////////////////////////////////////////////////*/
 
-
+.islas form{
+	width:50%;
+	display:flex;
+	justify-content:center;
+	
 
 #boga {
         background:url('Imagenes/Isla Boga.jpg') no-repeat;
