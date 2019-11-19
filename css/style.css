@@ -103,12 +103,12 @@ a:hover,a:active,a:focus{
 	
 
 #boga {
-        background:url('Imagenes/Isla Boga.jpg') no-repeat;
+        background-image:url('Imagenes/Isla Boga.jpg') no-repeat;
         background-position:center;
 }
 
 #bauhaus {
-        background:url('Imagenes/Isla Bauhaus.jpg') no-repeat;
+        background:url('Imagenes/Isla Bauhaus.jpg');
         background-position:center;
 }
 
